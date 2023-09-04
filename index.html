@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app-container">
+        <header id="mainHeader">
+            <div class="brandName">
+                <img src="/proj4/images/2.PNG" alt="">
+            </div>
+            <div class="bxDiv">
+                <i class='bx bxs-down-arrow' id="arrow"></i>
+                <i class='bx bxs-down-arrow' id="arrow2"></i>
+
+            </div>
+            <div class="signUp">
+                <button class="redButton">
+                    <i class='bx bx-edit-alt'></i> SIGN UP
+                </button>
+            </div>
+        </header>
+        <div class="main-body">
+            <div class="sidebar" id="sidebars">
+                <i class='bx bx-menu' id="arrow3"></i>
+                <!-- <i class='bx bx-x'></i> -->
+                <div class="nav-pills me-3 sidebar-link" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <li class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true"><i class='bx bx-home'></i>
+                        <h2>HOME</h2>
+                    </li>
+                    <li class="nav-link" id="v-pills-casino-tab" data-bs-toggle="pill" data-bs-target="#v-pills-casino"
+                        type="button" role="tab" aria-controls="v-pills-casino" aria-selected="false"><i
+                            class='bx bxs-coin'></i>
+                        <h2>LIVE CASINO</h2>
+                    </li>
+                    <li class="nav-link" id="v-pills-sports-tab" data-bs-toggle="pill" data-bs-target="#v-pills-sports"
+                        type="button" role="tab" aria-controls="v-pills-sports" aria-selected="false"><i
+                            class='bx bx-cricket-ball'></i>
+                        <h2>SPORTS</h2>
+                    </li>
+                    <li class="nav-link" id="v-pills-fish-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fish"
+                        type="button" role="tab" aria-controls="v-pills-fish" aria-selected="false"><i
+                            class='bx bx-money-withdraw'></i>
+                        <h2>FISH</h2>
+                    </li>
+                    <li class="nav-link" id="v-pills-chess-tab" data-bs-toggle="pill" data-bs-target="#v-pills-chess"
+                        type="button" role="tab" aria-controls="v-pills-chess" aria-selected="false"><i
+                            class='bx bx-cube-alt'></i>
+                        <h2>CHESS</h2>
+                    </li>
+                    <li class="nav-link" id="v-pills-slot-tab" data-bs-toggle="pill" data-bs-target="#v-pills-slot"
+                        type="button" role="tab" aria-controls="v-pills-slot" aria-selected="false"><i
+                            class='bx bx-gift'></i>
+                        <h2>SLOT</h2>
+                    </li>
+                    <li class="nav-link" id="v-pills-esport-tab" data-bs-toggle="pill" data-bs-target="#v-pills-esport"
+                        type="button" role="tab" aria-controls="v-pills-esport" aria-selected="false"><i
+                            class='bx bxs-keyboard'></i>
+                        <h2>E-SPORTS</h2>
+                    </li>
+                    <li class="nav-link" id="v-pills-aboutUs-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-aboutUs" type="button" role="tab" aria-controls="v-pills-aboutUs"
+                        aria-selected="false"><i class='bx bx-store-alt'></i>
+                        <h2>ABOUT US</h2>
+                    </li>
+                </div>
+            </div>
+            <div class="container">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab" tabindex="0">
+                        <div class="bodyImage">
+                            <img src="/proj4/images/1.png" alt="">
+                            <div class="bodyContent">
+                                <h1>$5,5555</h1>
+                                <h2>WELCOME PACKAGE</h2>
+                                <div class="bodyButton">
+                                    <button class="redButton">DOWNLOAD</button>
+                                    <button class="register">INSTA PLAY</button>
+                                </div>
+                                <p>FREE download to play or Play Games Immediately</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-casino" role="tabpanel" aria-labelledby="v-pills-casino-tab"
+                        tabindex="0">
+                        <div class="gridContainer">
+                            <div class="gameContainer">
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/ag-live-bg.png" alt="">
+                                    <h6>BBIN (Taiwan Hall)
+                                    </h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/bbin-live-bg.png" alt="">
+                                    <h6>AG (AV Girl Hall)</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/mg-live-bg.png" alt="">
+                                    <h6>MG (Europe Hall)</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/dg-live-bg.png" alt="">
+                                    <h6>DG Live</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/bg-live-bg.png" alt="">
+                                    <h6>BG Live</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/common/third/images/live/pp-live-bg.png" alt="">
+                                    <h6>Evolution</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-sports" role="tabpanel" aria-labelledby="v-pills-sports-tab"
+                        tabindex="0">
+                        <div class="gridContainer">
+                            <div class="gameContainer">
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/ag-sport-bg.png" alt="">
+                                    <h6>AG Sports
+                                    </h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/saba-sport-bg.png" alt="">
+                                    <h6>SABA Sports</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/pp-sport-bg.png" alt="">
+                                    <h6>PF Sports</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-fish" role="tabpanel" aria-labelledby="v-pills-fish-tab"
+                        tabindex="0">
+                        <div class="gridContainer">
+                            <div class="gameContainer">
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/bg-fish-bg.png" alt="">
+                                    <h6>BG Fishing
+                                    </h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/bgwest-fish-bg.png" alt="">
+                                    <h6>Big Gaming Fishing</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/bbin-fish-bg.png" alt="">
+                                    <h6>CQ9 Fishing</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/cq9-fish-bg.png" alt="">
+                                    <h6>TC Gaming</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-chess" role="tabpanel" aria-labelledby="v-pills-chess-tab"
+                        tabindex="0">
+                        <div class="gridContainer">
+                            <div class="gameContainer">
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/common/third/images/chess/ky-poker-bg.png" alt="">
+                                    <h6>KY IGaming
+                                    </h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/common/third/images/chess/leg-poker-bg.png" alt="">
+                                    <h6>LEG IGaming</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-slot" role="tabpanel" aria-labelledby="v-pills-slot-tab"
+                        tabindex="0">
+                        <div class="gridContainer">
+                            <div class="gameContainer" id="slotContainer">
+                                <div class="slot-carousel-img ">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_ChilliPepeHotStacks.png">
+                                    <button class="btn btn-danger">Play</button>
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_MonkeyBonanza.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_10000Wishes.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_108Heroes.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_108HeroesMF.png">
+
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_15Tridents.png">
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_25000Talons.png">
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_4DiamondBluesMegaways.png">
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_5ReelDrive1.png">
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_5StarKnockout.png">
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_6RubiesofTribute.png">
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_777MegaDeluxe.png">
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_777RoyalWheel.png">
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_777SuperBIGBuildUpDeluxe.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_777Surge.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_8GoldenSkullsofHollyRogerMegaways%E2%84%A2.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_9BlazingDiamonds.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_9MadHats.png">
+
+                                </div>
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_9MasksOfFire.png">
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_9PotsofGold.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_9SkullsOfGold.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_ADarkMatter.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_ATaleofElves.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_9MasksofFireHYPERSPINS.png">
+
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_AbraCatDabra.png">
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_ActionOpsSnow&Sable.png">
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_AdventuresOfDoubloonIsland.png">
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_AfricaXUP.png">
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_AgeofConquest.png">
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/pt/Mega%20Fire%20Blaze_%20Emperor%20of%20Rome.jpg">
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/pt/FIRE%204_%20Cash%20Collect%20Quattro.jpg">
+                                    <!-- <button class="btn btn-danger">Play Now</button> -->
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/pt/Mega%20Fire%20Blaze_%20Khonsu%20God%20of%20Moon%20PowerPlay%20Jackpot.jpg">
+                                    <!-- <button class="btn btn-danger">Play Now</button> -->
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img src="https://mt.yibo22.com/common/third/images/egame/pt/Cash%20IT.jpg">
+                                    <!-- <button class="btn btn-danger">Play Now</button> -->
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/pt/Wheels%20of%20Flame.jpg">
+                                    <!-- <button class="btn btn-danger">Play Now</button> -->
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/pt/Triple%20Stop_%20Mermaids%20Find.jpg">
+                                    <!-- <button class="btn btn-danger">Play Now</button> -->
+                                </div>
+
+                                <div class="slot-carousel-img">
+                                    <img
+                                        src="https://mt.yibo22.com/common/third/images/egame/mg/BTN_AdventurePalaceHD.png">
+                                    <!-- <button class="btn btn-danger">Play Now</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-esport" role="tabpanel" aria-labelledby="v-pills-esport-tab"
+                        tabindex="0">
+                        <div class="gridContainer">
+                            <div class="gameContainer">
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/ag-sport-bg.png" alt="">
+                                    <h6>AG Sports
+                                    </h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/saba-sport-bg.png" alt="">
+                                    <h6>SABA Sports</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                                <div class="casino-container">
+                                    <img src="https://mt.yibo22.com/images/pp-sport-bg.png" alt="">
+                                    <h6>PF Sports</h6>
+                                    <button class="btn btn-danger">Play Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-aboutUs" role="tabpanel"
+                        aria-labelledby="v-pills-aboutUs-tab" tabindex="0">
+                        <div class="gridContainer">
+                            <div class="main-footer">
+                                <div class="trending" id="game-providers">
+                                    <h1>THE BEST CASINO GAMBLING <br> EXPERIENCE ONLINE
+                                    </h1>
+                                    <div class="trending-detail">
+                                        <P>To play online, you do not need to leave your own house – just choose a
+                                            convenient
+                                            time and give
+                                            yourself to the fascinating action unfolding on the screen. Machines online
+                                            quickly
+                                            gained the
+                                            sympathy of different categories of gamers.
+                                            And true – their plots are diverse, and the design makes you feel delighted.
+                                            The main advantage of slot machines is availability – a large percentage of
+                                            video
+                                            slots are
+                                            presented in demonstration mode and do not require betting.
+
+                                            Among the “pros” of choosing <span style="color: #fcfb00;">slot
+                                                machines</span>
+                                            online is their
+                                            variety. Manufacturers also care about
+                                            the variability of plots.
+                                        </P>
+                                    </div>
+                                </div>
+                                <hr style="border: 2px solid red;">
+
+                                <div class="footer">
+                                    <div class="footer-container">
+                                        <div class="footer-link">
+                                            <h3>CUSTOMER SUPPORT</h3>
+                                            <h6>24 hours a day, 7 days a week, <br> we're here to help</h6>
+                                            <button>CONTACT US →</button>
+                                        </div>
+                                        <div class="footer-link">
+                                            <h3>USEFUL LINK</h3>
+                                            <h6>About us</h6>
+                                            <h6>Blog</h6>
+                                            <h6>Contact us</h6>
+                                            <h6>Terms and Condition</h6>
+                                            <h6>Privacy policy</h6>
+                                            <h6>Payment ooptions</h6>
+                                        </div>
+                                        <div class="footer-link">
+                                            <h3>OUR GAMES</h3>
+                                            <h6>Online Slots</h6>
+                                            <h6>Online Blacjjack</h6>
+                                            <h6>Live Casino</h6>
+                                            <h6>Progressive jackpot</h6>
+                                            <h6>Video Poker</h6>
+                                            <h6>Online Roulette</h6>
+                                        </div>
+                                        <div class="footer-link">
+                                            <h3>FOLLOW US!</h3>
+                                            <h6>FACEBOOK</h6>
+                                            <h6>INSTAGRAM</h6>
+                                            <h6>YOUTUBE</h6>
+                                            <h6>TWITTER</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr style="border: 2px solid red;">
+                                <div class="footer-text">
+                                    <p>The online casino ensures the privacy of its users, so in this section we provide
+                                        you
+                                        with
+                                        <span>information</span>
+                                        about how we collect, how we use and how we protect personal data received from
+                                        our
+                                        users. The
+                                        administration of online casinos guarantees that all personal data of the user
+                                        will
+                                        not
+                                        be transferred
+                                        to government agencies or other organizations. By respecting the <span>privacy
+                                            of
+                                            our
+                                            users</span>, we
+                                        grant every
+                                        gambler the right to refuse to receive e-mails or SMS messages.
+                                        Casino maintains the necessary security policy, rules and various technical
+                                        measures
+                                        in
+                                        order to protect
+                                        all user information located in our possession from any unauthorized access, its
+                                        modification and/or
+                                        destruction.
+                                    </p>
+                                    <div class="all-rights">
+                                        <small>©. All rights reserved.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="/proj4/main.js"></script>
+</body>
+
+</html>
