@@ -83,7 +83,6 @@ header .signUp .bx {
   height: 100vh;
   font-size: 30px;
   text-align: left;
-  padding-top: 50px;
   padding-left: 20px;
 }
 .nav-link.active {
@@ -101,6 +100,17 @@ header .signUp .bx {
 .sidebar .bx {
   margin-right: 10px;
 }
+.sidebar .bx-x {
+  font-size: 60px;
+  position: absolute;
+  left: 11vw;
+  top: 8vh;
+  z-index: 5;
+  color: white;
+  display: none;
+  background-color: red;
+}
+
 li {
   list-style: none;
   font-size: 1.5rem;
@@ -114,7 +124,6 @@ li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   /* background-image: url('/proj4/images/4.png'), url('/proj4/images/3.png');
   background-repeat: no-repeat, no-repeat;
   background-position: bottom right, left;
@@ -284,6 +293,36 @@ small {
   transition: 0.3s;
   opacity: 0;
 }
+@media screen and (max-width: 900px) {
+  #slotContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+#slotContainer img {
+height: 15vh;
+}
+
+.nav-link h2{
+display: none;
+}
+.bodyImage {
+  flex-direction: column;
+  align-items: center;
+}
+.bodyContent h1 {
+  font-size: 3rem;
+}
+.nav-link.active {
+  background-color: transparent !important;
+}
+.sidebar {
+  width: 8vw;
+  position: fixed;
+  z-index: 5;
+}
+.casino-container img {
+  height: 20vh;
+}
+}
 @media screen and (max-width: 400px) {
   .bodyContent h1 {
     font-size: 3rem;
@@ -315,12 +354,7 @@ small {
   .nav-link h2 {
     display: none;
   }
-  .nav-link.active {
-    background-color: transparent !important;
-  }
-  .casino-container img {
-    height: 20vh;
-  }
+
   p{
     font-size: 10px;
   }
@@ -337,7 +371,7 @@ small {
     height: 70px;
   }
   .sidebar {
-    position: absolute;
+    position: fixed;
     left: -13vw;
     transition: .3s;
     z-index: 4;
