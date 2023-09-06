@@ -327,6 +327,10 @@ small {
 
 
 @media screen and (max-width: 400px) {
+
+  .sidebar-link {
+    align-items: center;
+  }
   .bodyContent h1 {
     font-size: 3rem;
   }
